@@ -1,0 +1,86 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1011149,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "post with teacher account",
+        "description": "",
+        "id": "user-registration-with-api;post-with-teacher-account",
+        "after": [
+          {
+            "result": {
+              "duration": 59116,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4193781254,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I logged BookIT api as a teacher",
+            "match": {
+              "location": "postApiStepDefs.i_logged_BookIT_api_as_a_teacher()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 887934172,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I try to register new user",
+            "match": {
+              "location": "postApiStepDefs.i_try_to_register_new_user()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1106763,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I should get has been added to db message",
+            "match": {
+              "location": "postApiStepDefs.i_should_get_has_been_added_to_db_message()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@temp"
+          }
+        ]
+      }
+    ],
+    "name": "User Registration with API",
+    "description": "",
+    "id": "user-registration-with-api",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/postAPI.feature",
+    "tags": []
+  }
+]
